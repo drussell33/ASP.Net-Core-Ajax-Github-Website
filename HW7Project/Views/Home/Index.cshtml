@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-4" id="theUser">
+
+        </div>
+        <div class="col-8" id="theUserDisplay">
+
+        </div>
+    </div>
+</div>
+
+
+<h1>Repositories</h1>
+<hr/>
+<div class="container">
+    <div class="card-columns theRepos repoHeader">
+        
+    </div>
+</div>
+
+
+<h1 id="commitsHeader"></h1>
+<hr/>
+<div class="container">
+    <table class="table" id="theCommits">
+
+    </table>
+</div>
+
+
+@section Scripts {
+    <script type="text/javascript" src="~/js/main.js"></script>
+}
